@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildingInformationModel>
+    <Building>
+        <Name>Example Office Building</Name>
+        <Location>123 Main Street, Anytown, USA</Location>
+        <Floors>10</Floors>
+        <TotalArea>50000 sq ft</TotalArea>
+    </Building>
+    <HVACSystem>
+        <Component>
+            <Type>Air Conditioner</Type>
+            <Model>AC1234</Model>
+            <Manufacturer>CoolAir Inc.</Manufacturer>
+            <Capacity>5 Tons</Capacity>
+            <InstallationDate>2023-01-15</InstallationDate>
+            <MaintenanceSchedule>Quarterly</MaintenanceSchedule>
+            <EnergyConsumption>1500 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+        <Component>
+            <Type>Air Conditioner</Type>
+            <Model>AC5678</Model>
+            <Manufacturer>CoolAir Inc.</Manufacturer>
+            <Capacity>3 Tons</Capacity>
+            <InstallationDate>2023-02-20</InstallationDate>
+            <MaintenanceSchedule>Quarterly</MaintenanceSchedule>
+            <EnergyConsumption>900 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+        <Component>
+            <Type>Air Conditioner</Type>
+            <Model>AC9101</Model>
+            <Manufacturer>CoolAir Inc.</Manufacturer>
+            <Capacity>4 Tons</Capacity>
+            <InstallationDate>2023-03-10</InstallationDate>
+            <MaintenanceSchedule>Quarterly</MaintenanceSchedule>
+            <EnergyConsumption>1200 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+    </HVACSystem>
+    <LightingSystem>
+        <Component>
+            <Type>LED Light</Type>
+            <Model>LED123</Model>
+            <Manufacturer>BrightLights</Manufacturer>
+            <Wattage>15W</Wattage>
+            <InstallationDate>2023-01-05</InstallationDate>
+            <MaintenanceSchedule>Annually</MaintenanceSchedule>
+            <EnergyConsumption>10 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+        <Component>
+            <Type>Fluorescent Light</Type>
+            <Model>FL456</Model>
+            <Manufacturer>BrightLights</Manufacturer>
+            <Wattage>40W</Wattage>
+            <InstallationDate>2023-02-10</InstallationDate>
+            <MaintenanceSchedule>Annually</MaintenanceSchedule>
+            <EnergyConsumption>20 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+        <Component>
+            <Type>Halogen Light</Type>
+            <Model>HL789</Model>
+            <Manufacturer>BrightLights</Manufacturer>
+            <Wattage>50W</Wattage>
+            <InstallationDate>2023-03-15</InstallationDate>
+            <MaintenanceSchedule>Annually</MaintenanceSchedule>
+            <EnergyConsumption>25 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+    </LightingSystem>
+    <ElectricalSystem>
+        <Component>
+            <Type>Generator</Type>
+            <Model>GEN123</Model>
+            <Manufacturer>PowerGen</Manufacturer>
+            <Capacity>100 kW</Capacity>
+            <InstallationDate>2023-01-20</InstallationDate>
+            <MaintenanceSchedule>Bi-Annually</MaintenanceSchedule>
+            <EnergyConsumption>2000 kWh/month</EnergyConsumption>
+            <FuelType>Diesel</FuelType>
+            <CarbonEmissionFactor>2.68 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+        <Component>
+            <Type>UPS</Type>
+            <Model>UPS456</Model>
+            <Manufacturer>PowerGen</Manufacturer>
+            <Capacity>50 kW</Capacity>
+            <InstallationDate>2023-02-25</InstallationDate>
+            <MaintenanceSchedule>Annually</MaintenanceSchedule>
+            <EnergyConsumption>500 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+        <Component>
+            <Type>Transformer</Type>
+            <Model>TR789</Model>
+            <Manufacturer>PowerGen</Manufacturer>
+            <Capacity>200 kW</Capacity>
+            <InstallationDate>2023-03-30</InstallationDate>
+            <MaintenanceSchedule>Annually</MaintenanceSchedule>
+            <EnergyConsumption>1000 kWh/month</EnergyConsumption>
+            <FuelType>Electricity</FuelType>
+            <CarbonEmissionFactor>0.92 kg CO2/kWh</CarbonEmissionFactor>
+        </Component>
+    </ElectricalSystem>
+</BuildingInformationModel>
